@@ -1,0 +1,82 @@
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    /* background-color: #7e66ff; */
+}
+
+form>label,
+.form label {
+    font-size: 13px;
+}
+
+
+form>input {
+    outline: 0;
+    border: 1px solid #e7e7e7;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 10px;
+    margin-bottom: 1em;
+}
+
+.input-group-text,
+.input-group>.form-control,
+.input-group>.form-select {
+    outline: 0;
+    border: 1px solid #e7e7e7;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 10px;
+    margin-bottom: 1em;
+}
+
+.card {
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.cardactive,
+.cardactive2 {
+    border: 2px solid #7e66ff;
+}
+
+button {
+    border: none;
+    padding: 10px;
+    font-size: 13px;
+    background: #7e66ff;
+    color: white;
+    border-radius: 3px;
+    margin: 1em 0;
+}
+
+.steps {
+    z-index: 1;
+    background-color: white;
+    border-radius: 50%;
+    width: 55%;
+    padding: 10px;
+    border: 1px solid rgb(214, 214, 214)
+}
+
+.progressBar .active {
+    border-radius: 50%;
+    background-color: #7e66ff;
+    width: 55%;
+    color: white;
+    padding: 10px;
+}
+
+.muter {
+    width: 12%;
+    position: absolute;
+    top: 2.8em;
+    z-index: -1;
+}
+
+.bar {
+    color: #1c00b0;
+    height: 2px !important;
+}
